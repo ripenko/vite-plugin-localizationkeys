@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-localizationkeys",
+  "version": "1.0.0",
+  "description": "Vite plugin to generate localization keys that could be possible to be used by localizationservice",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "jsonc-parser": "3.3.1",
+    "typescript": "5.8.3",
+    "vite": "6.3.1"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "json",
+    "jsonc",
+    "typescript",
+    "codegen",
+    "localization"
+  ]
+}
