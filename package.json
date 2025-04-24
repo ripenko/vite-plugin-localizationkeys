@@ -20,7 +20,7 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "22.14.1",
     "jsonc-parser": "3.3.1",
     "typescript": "5.8.3",
